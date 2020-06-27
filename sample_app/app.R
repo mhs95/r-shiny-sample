@@ -30,9 +30,9 @@ library(sf)
 
 # Create a path to git folder - This step is not necessary for the shiny app and should only be used if configuring local changes
 if (Sys.info()["sysname"] == "Windows"){
-  git_path <- paste0("C:/Users/", Sys.info()[7], "/Documents/GitHub/r-shiny-sample/code")
+  git_path <- paste0("C:/Users/", Sys.info()[7], "/Documents/GitHub/r-shiny-sample/app")
 } else {
-  git_path <- paste0("/Users/", Sys.info()[7], "/Documents/GitHub/r-shiny-sample/code")
+  git_path <- paste0("/Users/", Sys.info()[7], "/Documents/GitHub/r-shiny-sample/app")
 }
 
 print(git_path)

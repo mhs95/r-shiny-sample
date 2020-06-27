@@ -1,0 +1,10 @@
+name: sample_app
+title:
+username:
+account: hassan-saad
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2511656
+bundleId: 3323653
+url: https://hassan-saad.shinyapps.io/sample_app/
+when: 1593283775.25101
